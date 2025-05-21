@@ -150,8 +150,8 @@ body {
 
     #imgBox img,
     #imgBox.show-img {
-        height: 120px;
-        width: 90%;
+        height: 100px;
+        width: 80%;
     }
 
     .page-footer {
