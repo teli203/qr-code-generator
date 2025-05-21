@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 450px;
+    max-width: 500px;
     padding: 35px 45px;
     position: absolute;
     top: 50%;
@@ -55,3 +55,43 @@ body {
     font-weight: 600;
 }
 
+#imgBox {
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#imgBox img {
+    width: 100%;
+    padding: 10px;
+}
+
+#imgBox.show-img {
+    max-height: 300px;
+    margin: 10px auto;
+    border: 3px solid #b86051;
+}
+
+.error {
+    animation: shake 0.1s linear 10;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    75% {
+        transform: translateX(2px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
