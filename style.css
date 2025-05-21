@@ -11,14 +11,16 @@ body {
 }
 
 .container {
-    width: 400px;
-    padding: 25px 35px;
+    width: 450px;
+    padding: 35px 45px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid #132035;
-    border-radius: 10px;
+    border: 2px solid #b86051;
+    border-radius: 3.5px;
+    box-shadow: 0 4px 5px 4px #132035;
+    filter: drop-shadow(10px 7px 10px #132035);
 }
 
 .container p {
@@ -46,9 +48,9 @@ body {
     color: #f9f4f1;
     border: 2px solid #132035;
     border-radius: 5px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.954);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.954);
     cursor: pointer;
     margin: 20px 0;
-    padding: 5px;
-    font-weight: 500;
+    padding: 10px;
+    font-weight: 600;
 }
