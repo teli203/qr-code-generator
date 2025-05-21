@@ -78,6 +78,26 @@ body {
     animation: shake 0.1s linear 10;
 }
 
+.page-header {
+    background-color: #132035;
+    color: #f9f4f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.page-footer {
+    background-color: #132035;
+    color: #f9f4f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
 @keyframes shake {
     0% {
         transform: translateX(0);
