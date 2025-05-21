@@ -10,6 +10,14 @@ body {
     color: #132035;
 }
 
+.page-header {
+    background-color: #132035;
+    color: #f9f4f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
 .container {
     max-width: 500px;
     padding: 35px 45px;
@@ -78,14 +86,6 @@ body {
     animation: shake 0.1s linear 10;
 }
 
-.page-header {
-    background-color: #132035;
-    color: #f9f4f1;
-    padding: 20px;
-    text-align: center;
-    font-size: 15px;
-}
-
 .page-footer {
     background-color: #132035;
     color: #f9f4f1;
@@ -113,5 +113,13 @@ body {
     }
     100% {
         transform: translateX(0);
+    }
+}
+
+/* Meida Query */
+
+@media only screen and (max-width: 844px) and (orientation: landscape) {
+    .container {
+        margin: 1.1rem;
     }
 }
