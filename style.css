@@ -147,7 +147,8 @@ body {
         padding: 5px;
         margin: 1.5px;
     }
-
+    
+    #imgBox img,
     #imgBox.show-img {
         height: 120px;
     }
