@@ -148,11 +148,19 @@ body {
         margin: 1.5px;
     }
 
-    #imgBox img,
+    
     #imgBox.show-img {
+        border: none;
+    }
+
+    #imgBox img {
         height: 100px;
-        width: 80%;
-        padding: 0;
+        width: 80%; 
+        border-top: 4px solid #132035e0;
+        border-bottom: 4px solid #132035;
+        border-left: 4px solid #b86051;
+        border-right: 4px solid #f9f4f1;
+        border-radius: 4px;
     }
 
     .page-footer {
