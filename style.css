@@ -6,7 +6,8 @@
 }
 
 body {
-    background: pink;
+    background: #f9b49b;
+    color: #132035;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid blue;
+    border: 2px solid #132035;
     border-radius: 10px;
 }
 
@@ -27,11 +28,27 @@ body {
 }
 
 .container input {
+    background: #f9f4f1;
+    color: #132035;
     width: 100%;
     height: 50px;
     outline: 0;
     padding: 10px;
     margin: 10px 0 20px;
-    border: 2px solid #030764;
+    border: 2px solid #132035;
     border-radius: 6px;
+}
+
+.container button {
+    background: #b86051;
+    width: 100%;
+    height: 50%;
+    color: #f9f4f1;
+    border: 2px solid #132035;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.954);
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 5px;
+    font-weight: 500;
 }
