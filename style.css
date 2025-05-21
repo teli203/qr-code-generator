@@ -152,9 +152,6 @@ body {
     #imgBox.show-img {
         height: 100px;
         width: 80%;
-    }
-
-    #imgBox img{
         padding: 0;
     }
 
