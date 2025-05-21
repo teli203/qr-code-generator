@@ -154,6 +154,10 @@ body {
         width: 80%;
     }
 
+    #imgBox img{
+        padding: 0;
+    }
+
     .page-footer {
         font-size: 12px;
         padding: 8.5px;
