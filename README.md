@@ -24,7 +24,7 @@ The QR Code Generator app allows users to easily create QR codes from any text o
 <img width="500" alt="Image1" src="https://github.com/user-attachments/assets/25c686f7-9242-46eb-ae90-5a8e33ba20bd" />
 
 ### Responsive Screen sizes
-<img width="500" alt="Image2"   />
+<img width="500" alt="Image2" src="https://github.com/user-attachments/assets/7260e766-6ae5-444e-9137-12b3e75a08c4"  />
 
 
 ## ❇️ Usage:
